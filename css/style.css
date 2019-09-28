@@ -86,9 +86,8 @@ body {
     text-align: center;
 }
 .boost_title {
-    font-family: "Gotham - Black";
     font-size: 35px;
-    font-weight: 400;
+    font-weight: bold;
     text-transform: uppercase;
     letter-spacing: -0.88px;
     color: white;
@@ -103,33 +102,33 @@ body {
 .input {
     width: 281px;
     height: 46px;
-    padding-left: 15px;
-    border-radius: 2%;
-    border: 1px solid #cbcbcb;
+    padding-left: 40px;
+    border-radius: 2px;
+    border: none;
+    background-image: url('../images/man.png');
+    background-repeat: no-repeat;
+    background-position: 15px center;
 
 }
 .input::placeholder {
-    background-image: url('../images/man.png');
-    background-repeat: no-repeat;
-    background-position: center left;
     color: #a9a9a9;
-    padding-left: 20px;
     font-family: "Open Sans";
     font-size: 13px;
 }
-.email::placeholder {
+.email {
     background-image: url('../images/letter.png');
+    background-repeat: no-repeat;
 }
-.phone::placeholder {
+.phone {
     background-image: url('../images/phone.png');
+    background-repeat: no-repeat;
 }
 .submit {
     width: 281px;
-    height: 46px;
+    height: 47px;
     background-color: #ffbb42;
-    border:#ffbb42;
-    border-bottom: 2px solid #ffbb42;
-    border-radius: 2%;
+    border: none;
+    border-radius: 2px;
     color: white;
     font-size: 14px;
     text-transform: uppercase;
@@ -244,15 +243,14 @@ label:hover,
 }
 .section {
     width: 510px;
+    display: inline-block;
+    vertical-align: top;
+}
+.one {
+    margin-right: 108px;
 }
 .section a {
     color: #fff;
-}
-.left {
-    float: left;
-}
-.right {
-    float: right;
 }
 .fa {
     float: left;
@@ -288,20 +286,18 @@ label:hover,
 }
 /*about*/
 .about {
+    padding-bottom: 170px;
+    padding-top: 160px;
     background-color: #ffc155;
-}
-.chair {
-    float: left;
-    min-width: 50%;
-    min-height: 600px;
     background-image: url('../images/chair.png');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
+    background-size: 50% 100%;
 }
 .aboutus {
-    width: 500px;
-    float: right;
-    padding-top: 164px;
+   width: 505px;
+   margin-left: auto;
+   margin-right: 0;
 }
 .about_title {
     font-family: 'Gotham', sans-serif;
@@ -493,6 +489,11 @@ label:hover,
 }
 .happy_cards {
     margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.two {
+    margin-right: 25px;
 }
 .happy_card {
     background-color: white;
@@ -502,10 +503,12 @@ label:hover,
     padding-bottom: 50px;
 }
 .card_photo {
-    float: left;
-    margin: 43px 30px 0px 30px;
+    margin: 60px 30px 0px 30px;
     transition: all 0.3s;
     border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid transparent;
 }
 .card_photo:hover {
     transform: scaleY(1.2) scaleX(1.2);
@@ -513,11 +516,12 @@ label:hover,
     border-radius: 50%;
 }
 .happy_card_article {
-    float: right;
     width: 344px;
     margin: 50px 40px 0px 0px;
     text-align: start;
     position: relative;
+    display: inline-block;
+    vertical-align: top;
 }
 .quotation {
     margin-bottom: 35px;
@@ -573,9 +577,11 @@ label:hover,
 }
 .news_input {
     width: 308px;
+    border: 1px solid #cbcbcb;
 }
 .news_email {
     width: 388px;
+    border: 1px solid #cbcbcb;
 }
 .map {
     margin-top: 53px;
