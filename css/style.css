@@ -37,7 +37,7 @@ body {
     border-bottom: 1px solid grey;
 }
 .container {
-    width: 1160px;
+    max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -224,8 +224,8 @@ label:hover,
 .main_services {
     margin-top: 200px;
     color: #394b50;
-    margin-bottom: 93px;
     text-align: center;
+    
 }
 .services_title {
     font-family: 'Gotham', sans-serif;
@@ -245,6 +245,7 @@ label:hover,
     width: 510px;
     display: inline-block;
     vertical-align: top;
+    margin-top: 80px;
 }
 .one {
     margin-right: 108px;
@@ -286,18 +287,24 @@ label:hover,
 }
 /*about*/
 .about {
-    padding-bottom: 170px;
-    padding-top: 160px;
-    background-color: #ffc155;
+    display: flex;
+}
+.about_inner {
+    width: 50%;
     background-image: url('../images/chair.png');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50% 100%;
+}
+.about_us_cover {
+    background-color: #ffc155;
+    padding-top: 160px;
+    padding-bottom: 170px;
+    width: 50%;
+    height: 100%;
 }
 .aboutus {
-   width: 505px;
-   margin-left: auto;
-   margin-right: 0;
+   width: 500px;
+   margin-left: 80px;
 }
 .about_title {
     font-family: 'Gotham', sans-serif;
