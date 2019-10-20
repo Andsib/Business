@@ -287,10 +287,12 @@ label:hover,
 }
 /*about*/
 .about {
-    display: flex;
+    position: relative;
 }
 .about_inner {
     width: 50%;
+    height: 100%;
+    position: absolute;
     background-image: url('../images/chair.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,6 +301,7 @@ label:hover,
     background-color: #ffc155;
     padding-top: 160px;
     padding-bottom: 170px;
+    margin-left: 50%;
     width: 50%;
     height: 100%;
 }
