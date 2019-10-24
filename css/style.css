@@ -40,6 +40,8 @@ body {
     max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .logo {
     float: left;
@@ -255,7 +257,7 @@ label:hover,
 }
 .fa {
     float: left;
-    color: #709dca;
+    color: #2c4d6e;
     font-size: 50px;
     transition: color 0.3s;
     margin: 0;
@@ -288,6 +290,7 @@ label:hover,
 /*about*/
 .about {
     position: relative;
+    background-color: #ffc155;
 }
 .about_inner {
     width: 50%;
@@ -298,7 +301,6 @@ label:hover,
     background-repeat: no-repeat;
 }
 .about_us_cover {
-    background-color: #ffc155;
     padding-top: 160px;
     padding-bottom: 170px;
     margin-left: 50%;
@@ -306,7 +308,7 @@ label:hover,
     height: 100%;
 }
 .aboutus {
-   width: 500px;
+   width: 450px;
    margin-left: 80px;
 }
 .about_title {
@@ -348,15 +350,19 @@ label:hover,
     background-color: #e7edf3;
 }
 .price {
-    margin-top: 0;
+    margin: 0px auto 80px auto;
     padding-top: 135px;
-    margin-bottom: 80px;
+}
+.price_cards {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .price_card {
     background-color: white;
     display: inline-block;
     vertical-align: top;
-    width: 385px;
+    width: 30%;
     padding: 57px 0px 48px 0px;
     border: 1px solid #ccd5df;
     font-family: 'Lato', sans-serif;
@@ -434,12 +440,15 @@ label:hover,
 .how_it_works_box {
     display: inline-block;
     vertical-align: top;
-    width: 215px;
+    width: 210px;
     text-align: center;
     position: relative;
-    margin: 112px 87px 55px 0px;
+    margin: 110px 80px 55px 0px;
 }
-.how_it_works_box:nth-child(5) {
+.how_it_works_box:first-child {
+    margin-left: 15px;
+}
+.how_it_works_box:nth-child(4) {
     margin-right: 0;
 }
 .how_it_works_box > .fa {
@@ -483,6 +492,7 @@ label:hover,
 .happy_clients {
     padding-bottom: 160px;
     background-color: #ffc155;
+    text-align: center;
 }
 .happy_head {
     text-align: center;
@@ -499,21 +509,21 @@ label:hover,
 }
 .happy_cards {
     margin-top: 20px;
+    padding: 0 10px;
     display: inline-block;
     vertical-align: top;
 }
-.two {
-    margin-right: 25px;
-}
 .happy_card {
     background-color: white;
-    width: 567px;
+    max-width: 560px;
     border-radius: 1%;
     text-align: center;
     padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card_photo {
-    margin: 60px 30px 0px 30px;
+    margin: 60px 20px 0px 20px;
     transition: all 0.3s;
     border-radius: 50%;
     display: inline-block;
@@ -526,7 +536,7 @@ label:hover,
     border-radius: 50%;
 }
 .happy_card_article {
-    width: 344px;
+    max-width: 344px;
     margin: 50px 40px 0px 0px;
     text-align: start;
     position: relative;
@@ -715,4 +725,280 @@ label:hover,
 .footer_address {
     color: white;
     font-size: 13px;
+}
+
+@media screen and (max-width: 1160px) {
+    /* header */
+    .heading .clearfix:after {
+        display: none;
+    }
+    .logo {
+        float: none;
+        margin: 20px 0px 0px 0px;
+    }
+    .header_nav {
+        float: none;
+    }
+    .header_nav {
+        float: none;
+    }
+    .menu {
+        padding: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* boost */
+    .boost {
+        padding-top: 150px;
+    }
+    .input, .submit {
+        margin-top: 10px;
+    }
+    .screen {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tv {
+       margin-left: auto;
+       margin-right: auto;
+    }
+    /* services */
+    .services {
+        padding-bottom: 50px;
+    }
+    .section {
+        margin-top: 50px;
+    }
+    .one {
+        margin-right: 0;
+    }
+    .fa {
+        margin-left: 30px;
+    }
+    .inside_text {
+        width: 400px;
+    }
+    /* about */
+    .about_us_cover {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .aboutus {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .price_card {
+        margin-bottom: 100px;
+    }
+    /* how it works */
+    .works {
+        padding-top: 80px;
+    }
+    .how_it_works_boxes {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .how_it_works_box {
+        width: 40%;
+        margin: 100px 0px 20px 0px;
+        padding: 0px 20px;
+    }
+    .works_head_arrow {
+        width: 128px;
+        height: 33px;
+        position: absolute;
+        top: -35px;
+        right: -70px;
+    }
+    .arrow2 {
+        display: none;
+    }
+    .how_button {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .how {
+        margin: 0;
+    }
+    /*newsletter*/
+    .newsletter {
+        padding-top: 100px;
+    }
+    .news_info {
+        width: 100%;
+    }
+    .news_input {
+        max-width: 300px;
+    }
+    .news_email {
+        max-width: 300px;
+    }
+    .map {
+        background-size: contain;
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* header */
+    .menu {
+        padding: 0;
+        margin: 0;
+    }
+    .menu_link {
+        padding: 5px 10px;
+    }
+    /* boost */
+    .boost {
+        padding-top: 150px;
+    }
+    .inform {
+        padding-bottom: 200px
+    }
+    .tv {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .slider {
+        width: auto;
+        height: 80px;
+        margin-left: 45px;
+    }
+    .images {
+        width: 200px;
+        height: 110px;
+        margin-top: 30px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .controls {
+        width: 100%;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* services */
+    .main_services {
+        margin-top: 100px;
+    }
+    .section {
+        width: 100%;
+    }
+    .section .clearfix:after {
+        display: none;
+    }
+
+    .fa {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .inside_text {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 100%;
+    }
+    /* about */
+    .about_inner {
+        width: 100%;
+        height: 370px;
+        position: static;
+    }
+    .about_us_cover {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutus {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about_text {
+        margin-top: 20px;
+    }
+    .about_button {
+        margin: 0;
+        padding: 20px 0px 40px 0px;
+    }
+    /* prices */
+    .price {
+        margin-top: 0;
+        padding-top: 90px;
+    }
+    .price_card {
+        width: 250px;
+        margin-bottom: 60px;
+    }
+    /* how_it_works */
+    .works {
+        padding-top: 0px;
+    }
+    .how_it_works_box {
+        width: 100%;
+        margin: 50px 0px 20px 0px;
+    }
+    .works_text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 245px;
+    }
+    .works_head {
+        margin-top: 30px;
+    }
+    .works_head_arrow {
+        display: none;
+    }
+    /* happy_clients */
+    .happy_clients {
+        padding-bottom: 50px;
+    }
+    .happy_head {
+        padding-top: 50px;
+    }
+    .quotation {
+        margin-left: 20px;
+    }
+    .quotation:before {
+        left: 5px;
+    }
+    .quotation:after {
+        margin-left: 85px;
+    }
+    .card_name {
+        margin-left: 20px;
+    }
+    /*newsletter*/
+    .newsletter {
+        padding-top: 20px;
+    }
+    .news_info {
+        padding-bottom: 20px;
+    }
+    .news_input {
+        width: 280px;
+        border: 1px solid #cbcbcb;
+    }
+    .news_email {
+        width: 280px;
+    }
+    .map {
+        margin: 0;
+        background-size: 100%;
+        padding-bottom: 100px;
+    }
+    /* footer */
+    .footer_icon {
+        font-size: 30px;
+        padding: 0 10px;
+    }
 }
