@@ -846,6 +846,13 @@ label:hover,
 
 @media screen and (max-width: 767px) {
     /* header */
+    .logo {
+        float: none;
+        margin-top: 10px;
+    }
+    .header_nav {
+        margin: 10px 0px 15px 0px;
+    }
     .menu {
         padding: 0;
         margin: 0;
