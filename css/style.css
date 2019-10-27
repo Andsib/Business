@@ -846,9 +846,6 @@ label:hover,
 
 @media screen and (max-width: 767px) {
     /* header */
-    .fixed {
-        position: static;
-    }
     .heading .logo {
         width: 20px;
         height: 35px;
@@ -1016,5 +1013,16 @@ label:hover,
     .footer_icon {
         font-size: 30px;
         padding: 0 10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .fixed {
+        position: static;
+    }
+    .boost {
+        padding-top: 50px;
+    }
+    .boost_title {
+        padding-top: 0;
     }
 }
