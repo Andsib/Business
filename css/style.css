@@ -846,6 +846,9 @@ label:hover,
 
 @media screen and (max-width: 767px) {
     /* header */
+    .fixed {
+        position: static;
+    }
     .heading .logo {
         width: 20px;
         height: 35px;
