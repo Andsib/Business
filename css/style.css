@@ -917,6 +917,9 @@ label:hover,
         float: none;
         max-width: 100%;
     }
+    .section_title {
+        text-align: center;
+    }
     /* about */
     .about_inner {
         width: 100%;
