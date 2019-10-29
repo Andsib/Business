@@ -990,6 +990,10 @@ label:hover,
     .quotation:after {
         margin-left: 5px;
     }
+    .happy_card_article {
+        margin-left: auto;
+        margin-right: auto;
+    }
     .card_name {
         margin-left: 20px;
     }
