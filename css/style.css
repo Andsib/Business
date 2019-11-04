@@ -983,6 +983,7 @@ label:hover,
     }
     .quotation {
         margin-left: 20px;
+        padding-right: 5px;
     }
     .quotation:before {
         left: 5px;
