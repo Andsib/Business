@@ -1,0 +1,116 @@
+@media screen and (max-width: 1160px) {
+    /* header */
+    .heading .clearfix:after {
+        display: none;
+    }
+    .logo {
+        float: none;
+        margin: 20px 0px 0px 0px;
+    }
+    .header_nav {
+        float: none;
+    }
+    .header_nav {
+        float: none;
+    }
+    .menu {
+        padding: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* boost */
+    .boost {
+        padding-top: 150px;
+    }
+    .input, .submit {
+        margin-top: 10px;
+    }
+    .screen {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tv {
+       margin-left: auto;
+       margin-right: auto;
+    }
+    /* services */
+    .services {
+        padding-bottom: 50px;
+    }
+    .section {
+        margin-top: 50px;
+    }
+    .one {
+        margin-right: 0;
+    }
+    .fa {
+        margin-left: 30px;
+    }
+    .inside_text {
+        width: 400px;
+    }
+    /* about */
+    .about_us_cover {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .aboutus {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .price_card {
+        margin-bottom: 100px;
+    }
+    /* how it works */
+    .works {
+        padding-top: 80px;
+    }
+    .how_it_works_boxes {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .how_it_works_box {
+        width: 40%;
+        margin: 100px 0px 20px 0px;
+        padding: 0px 20px;
+    }
+    .works_head_arrow {
+        width: 128px;
+        height: 33px;
+        position: absolute;
+        top: -35px;
+        right: -70px;
+    }
+    .arrow2 {
+        display: none;
+    }
+    .how_button {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .how {
+        margin: 0;
+    }
+    /*newsletter*/
+    .newsletter {
+        padding-top: 100px;
+    }
+    .news_info {
+        width: 100%;
+    }
+    .news_input {
+        max-width: 300px;
+    }
+    .news_email {
+        max-width: 300px;
+    }
+    .map {
+        background-size: contain;
+        padding-bottom: 150px;
+    }
+}

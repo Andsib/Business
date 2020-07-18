@@ -1,0 +1,174 @@
+@media screen and (max-width: 767px) {
+    /* header */
+    .heading .logo {
+        width: 20px;
+        height: 35px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header_nav {
+        margin: 20px 0px 5px 0px;
+    }
+    .menu {
+        padding: 0;
+        margin: 0;
+    }
+    .menu_link {
+        padding: 5px 10px;
+    }
+    /* boost */
+    .boost {
+        padding-top: 150px;
+    }
+    .inform {
+        padding-bottom: 200px
+    }
+    .tv {
+        width: 290px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .radio_wrapper {
+        position: absolute;
+        left: 38%;
+        bottom: -20px;
+    }
+    .tv_image {
+        display: block;
+        position: absolute;
+        top: 30px;
+        left: 45px;
+        width: 200px;
+        height: 110px;
+    }
+    /* services */
+    .main_services {
+        margin-top: 100px;
+    }
+    .section {
+        width: 100%;
+    }
+    .section .clearfix:after {
+        display: none;
+    }
+
+    .fa {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .inside_text {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 100%;
+    }
+    .section_title {
+        text-align: center;
+    }
+    .section_text {
+        padding-left: 5px;
+    }
+    /* about */
+    .about_inner {
+        width: 100%;
+        height: 370px;
+        position: static;
+    }
+    .about_us_cover {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .aboutus {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about_text {
+        margin-top: 20px;
+    }
+    .about_button {
+        margin: 0;
+        padding: 20px 0px 40px 0px;
+    }
+    /* prices */
+    .price {
+        margin-top: 0;
+        padding-top: 90px;
+    }
+    .price_card {
+        width: 250px;
+        margin-bottom: 60px;
+    }
+    /* how_it_works */
+    .works {
+        padding-top: 0px;
+    }
+    .how_it_works_box {
+        width: 100%;
+        margin: 50px 0px 20px 0px;
+    }
+    .works_text {
+        margin-left: auto;
+        margin-right: auto;
+        width: 245px;
+    }
+    .works_head {
+        margin-top: 30px;
+    }
+    .works_head_arrow {
+        display: none;
+    }
+    /* happy_clients */
+    .happy_clients {
+        padding-bottom: 50px;
+    }
+    .happy_head {
+        padding-top: 50px;
+    }
+    .quotation {
+        margin-left: 20px;
+        padding-right: 5px;
+    }
+    .quotation:before {
+        left: 5px;
+    }
+    .quotation:after {
+        margin-left: 5px;
+    }
+    .happy_card_article {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card_name {
+        margin-left: 20px;
+    }
+    /*newsletter*/
+    .newsletter {
+        padding-top: 20px;
+    }
+    .news_info {
+        padding-bottom: 20px;
+    }
+    .news_input {
+        width: 280px;
+        border: 1px solid #cbcbcb;
+    }
+    .news_email {
+        width: 280px;
+    }
+    .map {
+        margin: 0;
+        background-size: 100%;
+        padding-bottom: 100px;
+    }
+    /* footer */
+    .footer_icon {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+}

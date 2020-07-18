@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Gotham', sans-serif;
+    src: url('../fonts/GothamBlack.eot');
+    src: url('../fonts/GothamBlack.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamBlack.woff2') format('woff2'),
+        url('../fonts/GothamBlack.woff') format('woff'),
+        url('../fonts/GothamBlack.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+margin: 0;
+padding: 0;
+}
+* {
+box-sizing: border-box;
+}
+.clearfix:after {
+content:'';
+display: block;
+clear: both;
+}
+
+@import './header.scss';
+@import './boost.scss';
+@import './services.scss';
+@import './about.scss';
+@import './priceList.scss';
+@import './howItWorks.scss';
+@import './happyClients.scss';
+@import './newsLetter.scss';
+@import './footer.scss';
+
+@import './width_1160.scss';
+@import './width_767.scss';
+@import './width_420.scss';
